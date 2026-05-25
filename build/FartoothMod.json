@@ -1,0 +1,11 @@
+{
+	"id": "FartoothMod",
+	"name": "我的自定义模组",
+	"author": "FeatherLight",
+	"description": "我的杀戮尖塔2模组",
+	"version": "v1.0.0",
+	"has_pck": true,
+	"has_dll": true,
+	"dependencies": [],
+	"affects_gameplay": false
+}
