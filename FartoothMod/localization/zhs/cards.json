@@ -4,5 +4,7 @@
 	"STRIKE_FARTOOTH.description": "造成{Damage:diff()}点伤害",
 	"STRIKE_FARTOOTH.title": "打击",
 	"DEFEND_FARTOOTH.description": "获得{Block:diff()}点格挡",
-	"DEFEND_FARTOOTH.title": "防御"
+	"DEFEND_FARTOOTH.title": "防御",
+	"MEGA_SHOT.description": "造成{Damage:diff()}点伤害",
+	"MEGA_SHOT.title": "光羽箭"
 }

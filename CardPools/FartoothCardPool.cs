@@ -24,6 +24,7 @@ public sealed class FartoothCardPool : CardPoolModel
 			ModelDb.Card<StrikeFartooth>(),
             ModelDb.Card<DefendFartooth>(),
             ModelDb.Card<PreciseShot>(),
+            ModelDb.Card<MegaShot>(),
         };
 	}
 

@@ -35,6 +35,7 @@ namespace FartoothMod
 				ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(PreciseShot));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(StrikeFartooth));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(DefendFartooth));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(MegaShot));
                 var harmony = new Harmony("FeatherLight.FartoothMod");
 				harmony.PatchAll();
                 Godot.Bridge.ScriptManagerBridge.LookupScriptsInAssembly(Assembly.GetExecutingAssembly());
