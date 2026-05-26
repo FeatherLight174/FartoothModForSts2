@@ -32,7 +32,9 @@ namespace FartoothMod
 			{
 				ModHelper.AddModelToPool(typeof(IroncladRelicPool), typeof(FartoothRelic));
 				ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(PreciseShot));
-				var harmony = new Harmony("FeatherLight.FartoothMod");
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(StrikeFartooth));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(DefendFartooth));
+                var harmony = new Harmony("FeatherLight.FartoothMod");
 				harmony.PatchAll();
                 Godot.Bridge.ScriptManagerBridge.LookupScriptsInAssembly(Assembly.GetExecutingAssembly());
                 // 初始化 harmony 库

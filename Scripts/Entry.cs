@@ -5,7 +5,7 @@ using Fartooth.PotionPools;
 using Fartooth.RelicPools;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Models;
-using Fartooth.Characters;
+
 
 [HarmonyPatch(typeof(ModelDb), nameof(ModelDb.AllCardPools), MethodType.Getter)]
 public static class ModelDbAllCardPoolsPatch

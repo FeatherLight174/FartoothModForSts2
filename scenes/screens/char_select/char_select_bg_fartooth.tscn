@@ -1,11 +1,6 @@
-[gd_scene load_steps=13 format=3 uid="uid://d4k2ig4l2q5cw"]
+[gd_scene load_steps=8 format=3 uid="uid://d4k2ig4l2q5cw"]
 
 [ext_resource type="Texture2D" uid="uid://be871xkmk8b1m" path="res://texture/char_select_bg_fartooth.png" id="1_sto23"]
-[ext_resource type="Texture2D" uid="uid://crxewflv7cyok" path="res://images/vfx/dot.png" id="2_wbwmk"]
-[ext_resource type="Texture2D" uid="uid://br2vcqb8hdawd" path="res://images/vfx/short_grain_rice_particle.png" id="3_yppvd"]
-[ext_resource type="Texture2D" uid="uid://bt6qiphj5uomp" path="res://images/vfx/short_rice_no_glow_particle.png" id="4_a5ywp"]
-[ext_resource type="Material" uid="uid://c4ycqv0gdxvmr" path="res://themes/canvas_item_material_additive_shared.tres" id="5_vh0wl"]
-[ext_resource type="Texture2D" uid="uid://bp8oc80m2t7lt" path="res://images/vfx/light.png" id="6_rjgmb"]
 [ext_resource type="Script" uid="uid://cg6x46162rl2o" path="res://scenes/backgrounds/little_light_script.gd" id="7_tvuu0"]
 
 [sub_resource type="Gradient" id="Gradient_iyr6g"]
@@ -28,7 +23,7 @@ point_count = 3
 offsets = PackedFloat32Array(0, 0.0765864, 0.153173, 0.236324, 0.292123, 0.353392, 0.420131, 0.479212, 0.535011, 0.59081, 0.650985, 0.684902, 0.994413)
 colors = PackedColorArray(0.34902, 0.34902, 0.34902, 1, 0.176419, 0.176419, 0.176419, 1, 0.583297, 0.583297, 0.583297, 1, 0.724643, 0.724643, 0.724643, 1, 0.281187, 0.281187, 0.281187, 1, 0.542982, 0.542982, 0.542982, 1, 0.37981, 0.379811, 0.37981, 1, 0.779291, 0.779291, 0.779291, 1, 0.473976, 0.473976, 0.473975, 1, 0.246588, 0.246588, 0.246588, 1, 0.615422, 0.615422, 0.615422, 1, 0.513233, 0.513233, 0.513233, 1, 0.34902, 0.34902, 0.34902, 1)
 
-[node name="IroncladBg" type="Control"]
+[node name="FartoothBg" type="Control"]
 layout_mode = 3
 anchors_preset = 8
 anchor_left = 0.5
@@ -44,7 +39,7 @@ grow_vertical = 2
 pivot_offset = Vector2(1280, 600)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(886, 359)
+position = Vector2(1087, 464)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1_sto23")
 
@@ -52,7 +47,6 @@ texture = ExtResource("1_sto23")
 visible = false
 position = Vector2(144, -176)
 amount = 40
-texture = ExtResource("2_wbwmk")
 lifetime = 15.0
 local_coords = true
 emission_shape = 3
@@ -66,7 +60,6 @@ color_ramp = SubResource("Gradient_iyr6g")
 [node name="ash2" type="CPUParticles2D" parent="."]
 position = Vector2(-14, 1163)
 amount = 20
-texture = ExtResource("3_yppvd")
 lifetime = 15.0
 preprocess = 15.0
 local_coords = true
@@ -82,7 +75,6 @@ color_ramp = SubResource("Gradient_fnicy")
 [node name="ash3" type="CPUParticles2D" parent="."]
 position = Vector2(145, 1163)
 amount = 20
-texture = ExtResource("4_a5ywp")
 lifetime = 15.0
 preprocess = 15.0
 local_coords = true
@@ -98,12 +90,10 @@ color_ramp = SubResource("Gradient_w0doc")
 
 [node name="light6" type="CPUParticles2D" parent="."]
 visible = false
-material = ExtResource("5_vh0wl")
 position = Vector2(1297, 1263)
 scale = Vector2(5.22916, 5)
 skew = -0.000679374
 amount = 2
-texture = ExtResource("6_rjgmb")
 local_coords = true
 spread = 20.21
 gravity = Vector2(0, 0)
@@ -116,12 +106,10 @@ script = ExtResource("7_tvuu0")
 
 [node name="light7" type="CPUParticles2D" parent="."]
 visible = false
-material = ExtResource("5_vh0wl")
 position = Vector2(737, 1324)
 scale = Vector2(5.22916, 5)
 skew = -0.000679374
 amount = 2
-texture = ExtResource("6_rjgmb")
 local_coords = true
 spread = 20.21
 gravity = Vector2(0, 0)

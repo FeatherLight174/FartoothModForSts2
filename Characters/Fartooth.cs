@@ -36,14 +36,15 @@ public sealed class Fartooth : CharacterModel
 
 	public override IEnumerable<CardModel> StartingDeck => new CardModel[]
 	{
-		ModelDb.Card<global::Fartooth.Cards.StrikeFartooth>(),
-		ModelDb.Card<global::Fartooth.Cards.StrikeFartooth>(),
-		ModelDb.Card<global::Fartooth.Cards.StrikeFartooth>(),
-		ModelDb.Card<global::Fartooth.Cards.StrikeFartooth>(),
-		ModelDb.Card<global::Fartooth.Cards.DefendFartooth>(),
-		ModelDb.Card<global::Fartooth.Cards.DefendFartooth>(),
-		ModelDb.Card<global::Fartooth.Cards.DefendFartooth>(),
-		ModelDb.Card<global::Fartooth.Cards.DefendFartooth>(),
+		ModelDb.Card<Cards.StrikeFartooth>(),
+		ModelDb.Card<Cards.StrikeFartooth>(),
+		ModelDb.Card<Cards.StrikeFartooth>(),
+		ModelDb.Card<Cards.StrikeFartooth>(),
+		ModelDb.Card<Cards.DefendFartooth>(),
+		ModelDb.Card<Cards.DefendFartooth>(),
+		ModelDb.Card<Cards.DefendFartooth>(),
+		ModelDb.Card<Cards.DefendFartooth>(),
+		ModelDb.Card<Cards.PreciseShot>()
 	};
 
 	public override IReadOnlyList<RelicModel> StartingRelics => new RelicModel[]
@@ -69,11 +70,11 @@ public sealed class Fartooth : CharacterModel
 	{
 		return new List<string>();
 	}
-	public override string CharacterSelectSfx =>
-	ModelDb.Character<Ironclad>().CharacterSelectSfx;
+	//public override string CharacterSelectSfx =>
+	//ModelDb.Character<Ironclad>().CharacterSelectSfx;
 
-	public override string CharacterTransitionSfx =>
-		"event:/sfx/ui/wipe_ironclad";
+	//public override string CharacterTransitionSfx =>
+	//	"event:/sfx/ui/wipe_ironclad";
 
 	[HarmonyPatch(typeof(ModelDb), nameof(ModelDb.AllCharacters), MethodType.Getter)]
 	public static class ModelDbAllCharactersPatch

@@ -13,7 +13,7 @@ namespace Fartooth.Relics;
 
 public sealed class Sniper : RelicModel
 {
-    public override RelicRarity Rarity => RelicRarity.Shop;
+    public override RelicRarity Rarity => RelicRarity.Starter;
 
     
 }
