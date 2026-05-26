@@ -25,7 +25,7 @@ version_control/autoload_on_startup=true
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/mega_text/plugin.cfg")
+enabled=PackedStringArray()
 
 [rendering]
 

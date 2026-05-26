@@ -19,6 +19,7 @@ using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Characters;
 using MegaCrit.Sts2.Core.Models.RelicPools;
 using Fartooth;
+using Fartooth.Relics;
 
 
 namespace FartoothMod
@@ -30,7 +31,7 @@ namespace FartoothMod
 		{
 			try
 			{
-				ModHelper.AddModelToPool(typeof(IroncladRelicPool), typeof(FartoothRelic));
+				ModHelper.AddModelToPool(typeof(FartoothRelicPool), typeof(Sniper));
 				ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(PreciseShot));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(StrikeFartooth));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(DefendFartooth));
@@ -50,27 +51,6 @@ namespace FartoothMod
 	}
 	
 	
-	public class FartoothRelic : RelicModel
-	{
-		public override RelicRarity Rarity => RelicRarity.Starter;
-		// 稀有度
-
-		protected override IEnumerable<DynamicVar> CanonicalVars => [
-			new EnergyVar(2) // 关联 能量 的动态变量
-			];
-		// 动态变量
-
-		public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
-		{
-			// 判断事件调用时是否为遗物持有者一方，且回合数是否为 1
-			if (side == Owner.Creature.Side && combatState.RoundNumber == 1)
-			{
-				Flash(); // 触发遗物图标闪烁
-				await PlayerCmd.GainEnergy(DynamicVars.Energy.BaseValue, Owner);
-				// 给予玩家能量
-			}
-		}
-	}
 
 	
 
@@ -79,7 +59,7 @@ namespace FartoothMod
 	{
 		static void Postfix(ref IReadOnlyList<RelicModel> __result)
 		{
-			var customRelic = ModelDb.Relic<FartoothRelic>();
+			var customRelic = ModelDb.Relic<Sniper>();
 			// 从注册的数据库中获取我们自定义的遗物实例对象
 
 			if (__result.Any(r => r.Id == customRelic.Id))

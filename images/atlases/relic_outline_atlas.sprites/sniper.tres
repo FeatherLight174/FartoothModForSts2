@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dx6v22yfgelv4"]
+
+[ext_resource type="Texture2D" uid="uid://cnn4s8sqev5xa" path="res://images/relics/sniper_outline.png" id="1_mk31f"]
+
+[resource]
+atlas = ExtResource("1_mk31f")
+region = Rect2(0, 0, 256, 256)

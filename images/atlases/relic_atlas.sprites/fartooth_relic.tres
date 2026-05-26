@@ -1,7 +1,0 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://d01jymd403nsl"]
-
-[ext_resource type="Texture2D" uid="uid://b1xl5jhcw8hpr" path="res://images/relics/fartooth_relic.png" id="1_5674x"]
-
-[resource]
-atlas = ExtResource("1_5674x")
-region = Rect2(0, 0, 128, 128)

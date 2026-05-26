@@ -1,4 +1,8 @@
 {
-    "PRECISE_SHOT.description": "对指定敌人造成{Damage:diff()}点伤害",
-    "PRECISE_SHOT.title": "精准射击"
+	"PRECISE_SHOT.description": "造成{Damage:diff()}点伤害",
+	"PRECISE_SHOT.title": "精准射击",
+	"STRIKE_FARTOOTH.description": "造成{Damage:diff()}点伤害",
+	"STRIKE_FARTOOTH.title": "打击",
+	"DEFEND_FARTOOTH.description": "获得{Block:diff()}点格挡",
+	"DEFEND_FARTOOTH.title": "防御"
 }

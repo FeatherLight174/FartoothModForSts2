@@ -1,5 +1,6 @@
 {
-	"FARTOOTH_RELIC.title": "瓶装能量",
-	"FARTOOTH_RELIC.description": "每场战斗开始时，获得 {Energy} 点能量。",
-	"FARTOOTH_RELIC.flavor": "这个瓶子中蕴含着无尽的力量"
+	"SNIPER.title": "狙击镜",
+	"SNIPER.description": "每场战斗开始时，获得 {Energy} 点能量。",
+	"SNIPER.flavor": "这个瓶子中蕴含着无尽的力量"
+
 }
