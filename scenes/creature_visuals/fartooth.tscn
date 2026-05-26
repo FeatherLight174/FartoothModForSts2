@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw1hd40rfe8op"]
+
+[ext_resource type="Script" uid="uid://dha6vscq0i5dy" path="res://scene/creature_visuals/CustomCreatureVisuals.cs" id="1_4prro"]
+[ext_resource type="Texture2D" uid="uid://gmaowxyybpfu" path="res://texture/fartooth_initial.png" id="2_6i7c7"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_4prro")
+
+[node name="Visuals" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(131, -302)
+texture = ExtResource("2_6i7c7")
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -39.0
+offset_top = -452.0
+offset_right = 282.0
+offset_bottom = 3.0
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(90, -485)
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(87, -479)

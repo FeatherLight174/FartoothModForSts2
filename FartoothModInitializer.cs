@@ -1,7 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using Fartooth.CardPools;
+using Fartooth.Cards;
+using Fartooth.PotionPools;
+using Fartooth.RelicPools;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
@@ -13,6 +18,8 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Characters;
 using MegaCrit.Sts2.Core.Models.RelicPools;
+using Fartooth;
+
 
 namespace FartoothMod
 {
@@ -23,12 +30,13 @@ namespace FartoothMod
 		{
 			try
 			{
-				ModHelper.AddModelToPool(typeof(FartoothRelicPool), typeof(FartoothRelic));
+				ModHelper.AddModelToPool(typeof(IroncladRelicPool), typeof(FartoothRelic));
 				ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(PreciseShot));
 				var harmony = new Harmony("FeatherLight.FartoothMod");
 				harmony.PatchAll();
-				// 初始化 harmony 库
-			}
+                Godot.Bridge.ScriptManagerBridge.LookupScriptsInAssembly(Assembly.GetExecutingAssembly());
+                // 初始化 harmony 库
+            }
 			catch (Exception e)
 			{
 				Log.Error("FartoothMod - 加载失败");
@@ -82,8 +90,8 @@ namespace FartoothMod
 			// 向 __result 追加 customRelic自定义遗物对象
 		}
 	}
+    
 
-	
 
 
 }

@@ -12,7 +12,7 @@ using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.Powers; 
 using MegaCrit.Sts2.Core.ValueProps;
 
-
+namespace Fartooth.Cards;
 public sealed class PreciseShot : CardModel
 {
 	protected override List<DynamicVar> CanonicalVars => [

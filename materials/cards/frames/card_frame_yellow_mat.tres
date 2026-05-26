@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cqbs7qsfr6w16"]
+
+[ext_resource type="Shader" uid="uid://bnfmvhpivcwg2" path="res://materials/cards/frames/card_frame_yellow_mat.gdshader" id="1_nm6mg"]
+
+[resource]
+shader = ExtResource("1_nm6mg")
+shader_parameter/h = 0.1600000076
+shader_parameter/s = 3.0000001425
+shader_parameter/v = 1.0

@@ -1,0 +1,287 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3xusef6aalag"]
+
+[ext_resource type="Script" uid="uid://cf5ymumbk8l1y" path="res://scenes/combat/energy_counters/CustomEnergyCounter.cs" id="1_yclxw"]
+
+[sub_resource type="FontVariation" id="FontVariation_x0k5t"]
+spacing_glyph = 2
+
+[sub_resource type="CSharpScript" id="CSharpScript_emmyk"]
+script/source = "using System;
+using Godot;
+using MegaCrit.Sts2.Core.Localization.Fonts;
+
+namespace MegaCrit.Sts2.addons.mega_text;
+
+[Tool]
+public partial class MegaLabel : Label
+{
+	private static readonly TextParagraph _cachedParagraph = new TextParagraph();
+
+	private const float _sizeComparisonEpsilon = 0.01f;
+
+	private bool _autoSizeEnabled = true;
+
+	private int _minFontSize = 32;
+
+	private int _maxFontSize = 36;
+
+	private int _lastSetSize;
+
+	private Vector2 _lastAdjustedSize;
+
+	[Export(PropertyHint.None, \"\")]
+	public bool AutoSizeEnabled
+	{
+		get
+		{
+			return _autoSizeEnabled;
+		}
+		set
+		{
+			if (_autoSizeEnabled != value)
+			{
+				_autoSizeEnabled = value;
+				if (Engine.IsEditorHint())
+				{
+					AdjustFontSize();
+				}
+			}
+		}
+	}
+
+	[Export(PropertyHint.None, \"\")]
+	public int MinFontSize
+	{
+		get
+		{
+			return _minFontSize;
+		}
+		set
+		{
+			if (_minFontSize != value)
+			{
+				_minFontSize = value;
+				if (Engine.IsEditorHint())
+				{
+					AdjustFontSize();
+				}
+			}
+		}
+	}
+
+	[Export(PropertyHint.None, \"\")]
+	public int MaxFontSize
+	{
+		get
+		{
+			return _maxFontSize;
+		}
+		set
+		{
+			if (_maxFontSize != value)
+			{
+				_maxFontSize = value;
+				if (Engine.IsEditorHint())
+				{
+					AdjustFontSize();
+				}
+			}
+		}
+	}
+
+	public override void _Ready()
+	{
+		MegaLabelHelper.AssertThemeFontOverride(this, ThemeConstants.Label.Font);
+		RefreshFont();
+		AdjustFontSize();
+	}
+
+	public void RefreshFont()
+	{
+		this.ApplyLocaleFontSubstitution(FontType.Regular, ThemeConstants.Label.Font);
+	}
+
+	public override void _Notification(int what)
+	{
+		if ((long)what == 40 && !(_lastAdjustedSize.DistanceSquaredTo(base.Size) < 0.0001f))
+		{
+			AdjustFontSize();
+		}
+	}
+
+	public void SetTextAutoSize(string text)
+	{
+		if (!(base.Text == text))
+		{
+			base.Text = text;
+			AdjustFontSize();
+		}
+	}
+
+	private void SetFontSize(int size)
+	{
+		if (_lastSetSize != size)
+		{
+			_lastSetSize = size;
+			if (HasThemeFont(ThemeConstants.Label.Font))
+			{
+				AddThemeFontSizeOverride(ThemeConstants.Label.FontSize, size);
+			}
+		}
+	}
+
+	private void AdjustFontSize()
+	{
+		if (!AutoSizeEnabled)
+		{
+			return;
+		}
+		_lastAdjustedSize = base.Size;
+		Font themeFont = GetThemeFont(ThemeConstants.Label.Font, \"Label\");
+		float lineSpacing = GetThemeConstant(ThemeConstants.Label.LineSpacing, \"Label\");
+		Vector2 size = GetRect().Size;
+		bool wrap = base.AutowrapMode != TextServer.AutowrapMode.Off;
+		if (!MegaLabelHelper.IsTooBig(_cachedParagraph, base.Text, themeFont, MaxFontSize, lineSpacing, wrap, size))
+		{
+			SetFontSize(MaxFontSize);
+			return;
+		}
+		if (_lastSetSize >= MinFontSize && _lastSetSize < MaxFontSize && !MegaLabelHelper.IsTooBig(_cachedParagraph, base.Text, themeFont, _lastSetSize, lineSpacing, wrap, size) && MegaLabelHelper.IsTooBig(_cachedParagraph, base.Text, themeFont, _lastSetSize + 1, lineSpacing, wrap, size))
+		{
+			SetFontSize(_lastSetSize);
+			return;
+		}
+		int num = MinFontSize;
+		int num2 = MaxFontSize;
+		while (num2 >= num)
+		{
+			int num3 = num + (num2 - num) / 2;
+			if (num3 == MaxFontSize || MegaLabelHelper.IsTooBig(_cachedParagraph, base.Text, themeFont, num3, lineSpacing, wrap, size))
+			{
+				num2 = num3 - 1;
+			}
+			else
+			{
+				num = num3 + 1;
+			}
+		}
+		SetFontSize(Math.Min(num, num2));
+	}
+}
+"
+
+[node name="FartoothEnergyCounter" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 128.0
+offset_bottom = 128.0
+pivot_offset = Vector2(64, 64)
+script = ExtResource("1_yclxw")
+metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
+
+[node name="BurstBack" type="CPUParticles2D" parent="."]
+
+[node name="Layers" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Layer1" type="TextureRect" parent="Layers"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RotationLayers" type="Control" parent="Layers"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Layer2" type="TextureRect" parent="Layers/RotationLayers"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(64, 64)
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Layer3" type="TextureRect" parent="Layers/RotationLayers"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(64, 64)
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Layer4" type="TextureRect" parent="Layers"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Layer5" type="TextureRect" parent="Layers"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BurstFront" type="CPUParticles2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -29.0
+offset_right = -16.0
+offset_bottom = 29.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0.964706, 0.886275, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.188235)
+theme_override_colors/font_outline_color = Color(0.3, 0.0759, 0.051, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/outline_size = 16
+theme_override_constants/shadow_outline_size = 16
+theme_override_fonts/font = SubResource("FontVariation_x0k5t")
+theme_override_font_sizes/font_size = 36
+text = "3/3"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = SubResource("CSharpScript_emmyk")
