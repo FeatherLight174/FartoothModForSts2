@@ -11,9 +11,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//攻击卡 ： 突袭
+
 namespace FartoothMod.cards
 {
+    /// <summary>
+    /// 攻击卡 ： 突袭
+    /// </summary>
     public sealed class SurpriseAttackFartooth : CardModel
     {
         protected override List<DynamicVar> CanonicalVars => [
@@ -54,7 +57,7 @@ namespace FartoothMod.cards
 
         protected override void OnUpgrade()
         {
-            base.DynamicVars.Block.UpgradeValueBy(3m); // 升级后加 3点伤害
+            base.DynamicVars.Damage.UpgradeValueBy(3m); // 升级后加 3点伤害
         }
     }
 

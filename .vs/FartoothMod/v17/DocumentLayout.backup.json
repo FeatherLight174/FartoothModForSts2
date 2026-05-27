@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\surpriseattackfartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\cards\\strikefartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\strikefartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\fartoothmodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:fartoothmodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\cardpools\\fartoothcardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cardpools\\fartoothcardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\cards\\defendfartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\defendfartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:potionpools\\fartoothpotionpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\cards\\strikefartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\strikefartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\cards\\preciseshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\preciseshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\cardpools\\fartoothcardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cardpools\\fartoothcardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\cards\\megashot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\scripts\\patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:scripts\\patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\fartoothmodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:fartoothmodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|d:\\mods\\fartoothmodforsts2\\characters\\fartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,18 +80,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SurpriseAttackFartooth.cs",
-              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\cards\\SurpriseAttackFartooth.cs",
-              "RelativeDocumentMoniker": "cards\\SurpriseAttackFartooth.cs",
-              "ToolTip": "D:\\mods\\FartoothModForSts2\\cards\\SurpriseAttackFartooth.cs",
-              "RelativeToolTip": "cards\\SurpriseAttackFartooth.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDYAAABDAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\Cards\\SurpriseAttackFartooth.cs",
+              "RelativeDocumentMoniker": "Cards\\SurpriseAttackFartooth.cs",
+              "ToolTip": "D:\\mods\\FartoothModForSts2\\Cards\\SurpriseAttackFartooth.cs",
+              "RelativeToolTip": "Cards\\SurpriseAttackFartooth.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T05:46:28.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Distance.cs",
               "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\Powers\\Distance.cs",
               "RelativeDocumentMoniker": "Powers\\Distance.cs",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Sniper.cs",
               "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\Relics\\Sniper.cs",
               "RelativeDocumentMoniker": "Relics\\Sniper.cs",
@@ -111,24 +111,23 @@
               "RelativeToolTip": "Relics\\Sniper.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T04:15:24.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T04:15:24.592Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MegaShot.cs",
-              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\cards\\MegaShot.cs",
-              "RelativeDocumentMoniker": "cards\\MegaShot.cs",
-              "ToolTip": "D:\\mods\\FartoothModForSts2\\cards\\MegaShot.cs",
-              "RelativeToolTip": "cards\\MegaShot.cs",
+              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\Cards\\MegaShot.cs",
+              "RelativeDocumentMoniker": "Cards\\MegaShot.cs",
+              "ToolTip": "D:\\mods\\FartoothModForSts2\\Cards\\MegaShot.cs",
+              "RelativeToolTip": "Cards\\MegaShot.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T12:31:07.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Patch.cs",
               "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\Scripts\\Patch.cs",
               "RelativeDocumentMoniker": "Scripts\\Patch.cs",
@@ -140,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "cards.json",
               "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\FartoothMod\\localization\\zhs\\cards.json",
               "RelativeDocumentMoniker": "FartoothMod\\localization\\zhs\\cards.json",
@@ -164,15 +163,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "FartoothModInitializer.cs",
               "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\FartoothModInitializer.cs",
               "RelativeDocumentMoniker": "FartoothModInitializer.cs",
               "ToolTip": "D:\\mods\\FartoothModForSts2\\FartoothModInitializer.cs",
               "RelativeToolTip": "FartoothModInitializer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCUAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCcAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T03:44:18.873Z"
+              "WhenOpened": "2026-05-26T03:44:18.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -188,40 +188,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "StrikeFartooth.cs",
-              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\cards\\StrikeFartooth.cs",
-              "RelativeDocumentMoniker": "cards\\StrikeFartooth.cs",
-              "ToolTip": "D:\\mods\\FartoothModForSts2\\cards\\StrikeFartooth.cs",
-              "RelativeToolTip": "cards\\StrikeFartooth.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA8wCAAAAAjAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\Cards\\StrikeFartooth.cs",
+              "RelativeDocumentMoniker": "Cards\\StrikeFartooth.cs",
+              "ToolTip": "D:\\mods\\FartoothModForSts2\\Cards\\StrikeFartooth.cs",
+              "RelativeToolTip": "Cards\\StrikeFartooth.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T04:36:12.861Z"
+              "WhenOpened": "2026-05-26T04:36:12.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PreciseShot.cs",
-              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\cards\\PreciseShot.cs",
-              "RelativeDocumentMoniker": "cards\\PreciseShot.cs",
-              "ToolTip": "D:\\mods\\FartoothModForSts2\\cards\\PreciseShot.cs",
-              "RelativeToolTip": "cards\\PreciseShot.cs",
+              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\Cards\\PreciseShot.cs",
+              "RelativeDocumentMoniker": "Cards\\PreciseShot.cs",
+              "ToolTip": "D:\\mods\\FartoothModForSts2\\Cards\\PreciseShot.cs",
+              "RelativeToolTip": "Cards\\PreciseShot.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T04:32:43.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DefendFartooth.cs",
-              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\cards\\DefendFartooth.cs",
-              "RelativeDocumentMoniker": "cards\\DefendFartooth.cs",
-              "ToolTip": "D:\\mods\\FartoothModForSts2\\cards\\DefendFartooth.cs",
-              "RelativeToolTip": "cards\\DefendFartooth.cs",
+              "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\Cards\\DefendFartooth.cs",
+              "RelativeDocumentMoniker": "Cards\\DefendFartooth.cs",
+              "ToolTip": "D:\\mods\\FartoothModForSts2\\Cards\\DefendFartooth.cs",
+              "RelativeToolTip": "Cards\\DefendFartooth.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwB8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T04:34:06.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T04:34:06.931Z"
             },
             {
               "$type": "Document",
@@ -237,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FartoothPotionPool.cs",
               "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\PotionPools\\FartoothPotionPool.cs",
               "RelativeDocumentMoniker": "PotionPools\\FartoothPotionPool.cs",
@@ -249,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FartoothRelicPool.cs",
               "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\RelicPools\\FartoothRelicPool.cs",
               "RelativeDocumentMoniker": "RelicPools\\FartoothRelicPool.cs",
@@ -261,15 +261,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "FartoothCardPool.cs",
               "DocumentMoniker": "D:\\mods\\FartoothModForSts2\\CardPools\\FartoothCardPool.cs",
               "RelativeDocumentMoniker": "CardPools\\FartoothCardPool.cs",
               "ToolTip": "D:\\mods\\FartoothModForSts2\\CardPools\\FartoothCardPool.cs",
               "RelativeToolTip": "CardPools\\FartoothCardPool.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywBsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T14:55:40.693Z"
+              "WhenOpened": "2026-05-25T14:55:40.693Z",
+              "EditorCaption": ""
             }
           ]
         }

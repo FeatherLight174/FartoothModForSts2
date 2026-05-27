@@ -20,6 +20,7 @@ using MegaCrit.Sts2.Core.Models.Characters;
 using MegaCrit.Sts2.Core.Models.RelicPools;
 using Fartooth;
 using Fartooth.Relics;
+using FartoothMod.cards;
 
 
 namespace FartoothMod
@@ -36,6 +37,7 @@ namespace FartoothMod
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(StrikeFartooth));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(DefendFartooth));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(MegaShot));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(SurpriseAttackFartooth));
                 var harmony = new Harmony("FeatherLight.FartoothMod");
 				harmony.PatchAll();
                 Godot.Bridge.ScriptManagerBridge.LookupScriptsInAssembly(Assembly.GetExecutingAssembly());

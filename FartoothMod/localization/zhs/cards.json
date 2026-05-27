@@ -6,5 +6,8 @@
 	"DEFEND_FARTOOTH.description": "获得{Block:diff()}点格挡",
 	"DEFEND_FARTOOTH.title": "防御",
 	"MEGA_SHOT.description": "造成{Damage:diff()}点伤害",
-	"MEGA_SHOT.title": "光羽箭"
+	"MEGA_SHOT.title": "光羽箭",
+	"SURPRISE_ATTACK_FARTOOTH.description": "消耗2距离消除目标的所有格挡对指定敌人造成{Damage:diff()}点伤害",
+	"SURPRISE_ATTACK_FARTOOTH.title": "突袭"
+
 }
