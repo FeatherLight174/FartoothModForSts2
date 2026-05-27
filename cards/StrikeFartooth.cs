@@ -21,7 +21,7 @@ public sealed class StrikeFartooth : CardModel
 	// 动态变量
 
 	public StrikeFartooth()
-		: base(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy) { }
+		: base(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy) { }
 	// 卡牌的构造函数，指定卡牌的相关属性
 
 	protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)

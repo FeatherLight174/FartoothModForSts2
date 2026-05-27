@@ -24,7 +24,7 @@ public sealed class DefendFartooth : CardModel
     // 动态变量
 
     public DefendFartooth()
-		: base(0, CardType.Skill, CardRarity.Common, TargetType.Self) { }
+		: base(1, CardType.Skill, CardRarity.Basic, TargetType.Self) { }
 	// 卡牌的构造函数，指定卡牌的相关属性
 
 	protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)

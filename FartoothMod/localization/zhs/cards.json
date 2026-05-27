@@ -1,10 +1,13 @@
 {
-	"PRECISE_SHOT.description": "造成{Damage:diff()}点伤害",
+	"PRECISE_SHOT.description": "造成{CalculatedDamage:diff()}点伤害,每有1点距离，伤害增加{ExtraDamage:diff()}",
 	"PRECISE_SHOT.title": "精准射击",
 	"STRIKE_FARTOOTH.description": "造成{Damage:diff()}点伤害",
 	"STRIKE_FARTOOTH.title": "打击",
 	"DEFEND_FARTOOTH.description": "获得{Block:diff()}点格挡",
 	"DEFEND_FARTOOTH.title": "防御",
 	"MEGA_SHOT.description": "造成{Damage:diff()}点伤害",
-	"MEGA_SHOT.title": "光羽箭"
+	"MEGA_SHOT.title": "光羽箭",
+	"SURPRISE_ATTACK_FARTOOTH.description": "消耗2距离，去除目标格挡，造成{Damage:diff()}点伤害",
+	"SURPRISE_ATTACK_FARTOOTH.title": "突袭"
+	
 }

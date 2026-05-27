@@ -21,7 +21,7 @@ public sealed class MegaShot : CardModel
 	// 动态变量
 
 	public MegaShot()
-		: base(1, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy) { }
+		: base(3, CardType.Attack, CardRarity.Rare, TargetType.AnyEnemy) { }
 	// 卡牌的构造函数，指定卡牌的相关属性
 
 	protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
