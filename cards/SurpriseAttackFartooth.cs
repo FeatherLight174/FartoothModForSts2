@@ -19,9 +19,12 @@ namespace FartoothMod.cards
         protected override List<DynamicVar> CanonicalVars => [
         new DamageVar(6m, ValueProp.Move) // 伤害值
 	];
+
+        // 构造
         public SurpriseAttackFartooth()
         : base(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy) { }
 
+        //消耗距离的判断
         protected override bool IsPlayable
         {
             get
@@ -29,7 +32,9 @@ namespace FartoothMod.cards
                 // 距离判定,找到目标对象Distance
                 var power = Owner.Creature.Powers
            .FirstOrDefault(p => p is Distance);
+
                 if (power == null) return false;
+
                 return power.Amount >= 2;
             }
         }
@@ -38,12 +43,19 @@ namespace FartoothMod.cards
         protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
         {
 
-
+            await CreatureCmd.LoseBlock(cardPlay.Target, cardPlay.Target.Block);
             await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
          .FromCard(this) // 攻击来源
          .Targeting(cardPlay.Target) // 攻击目标
     .WithHitFx("vfx/vfx_attack_slash") // 攻击特效
     .Execute(choiceContext); // 执行攻击效果
+            await PowerCmd.Apply<Distance>(Owner.Creature, -2m, Owner.Creature, null);
+        }
+
+        protected override void OnUpgrade()
+        {
+            base.DynamicVars.Block.UpgradeValueBy(3m); // 升级后加 3点伤害
         }
     }
+
 }
