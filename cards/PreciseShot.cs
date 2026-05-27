@@ -15,6 +15,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace Fartooth.Cards;
 public sealed class PreciseShot : CardModel
 {
+
 	protected override List<DynamicVar> CanonicalVars => [
 		new DamageVar(5m, ValueProp.Move) // 伤害值
 	];

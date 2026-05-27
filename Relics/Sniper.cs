@@ -16,7 +16,7 @@ using MegaCrit.Sts2.Core.Models.Events;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.Rooms;
 namespace Fartooth.Relics;
-
+//初始遗物：狙击镜，每回合开始时距离+1
 public sealed class Sniper : RelicModel
 {
     public override RelicRarity Rarity => RelicRarity.Starter;
