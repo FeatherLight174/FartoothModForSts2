@@ -4,7 +4,7 @@
   "DISTANCE.smartDescription": "当前[gold]距离[/gold]为{Amount} ",
   "MARK.title": "标记",
   "MARK.description": "每有一层[gold]标记[/gold]，目标受到伤害时就会额外受到2点伤害",
-  "MARK.smartDescription": "当前[gold]标记[/gold]为{Amount}, 每有一层[gold]标记[/gold]，目标受到伤害时就会额外受到2点伤害",
+  "MARK.smartDescription": "当前[gold]标记[/gold]为{Amount}, 每有一层[gold]标记[/gold]，目标受到伤害时额外受到2点伤害",
   "TEMPORARY_DISTANCE.title": "临时距离",
   "TEMPORARY_DISTANCE.description": "临时距离会在回合结束时消失",
   "TEMPORARY_DISTANCE.smartDescription": "当前临时距离为{Amount}，临时距离会在回合结束时消失",
@@ -21,6 +21,15 @@
   "CONCENTRATE_POWER.description": "本回合内获得力量",
   "CONCENTRATE_POWER.smartDescription": "本回合内获得力量",
   "HOLD_BREATH_POWER.title": "屏息",
-  "HOLD_BREATH_POWER.description": "本回合内失去力量",
-  "HOLD_BREATH_POWER.smartDescription": "本回合内失去力量"
+  "HOLD_BREATH_POWER.description": "本回合失去力量",
+  "HOLD_BREATH_POWER.smartDescription": "本回合失去力量",
+  "DISTANCE_AVAILABLE_POWER.title": "休整",
+  "DISTANCE_AVAILABLE_POWER.description": "本回合无法获取[gold]距离[/gold]",
+  "DISTANCE_AVAILABLE_POWER.smartDescription": "本回合无法获取[gold]距离[/gold]",
+  "DISTANCE_CONSUME_POWER.title": "疲倦",
+  "DISTANCE_CONSUME_POWER.description": "本回合无法消耗[gold]距离[/gold]",
+  "DISTANCE_CONSUME_POWER.smartDescription": "本回合无法消耗[gold]距离[/gold]",
+  "DISTANCE_TO_BLOCK_POWER.title": "脱锋",
+  "DISTANCE_TO_BLOCK_POWER.description": "每回合结束时，获得等量于[gold]距离[/gold]层数的格挡",
+  "DISTANCE_TO_BLOCK_POWER.smartDescription": "每回合结束时，获得等量于[gold]距离[/gold]层数的格挡"
 }

@@ -20,7 +20,8 @@ using MegaCrit.Sts2.Core.Models.Characters;
 using MegaCrit.Sts2.Core.Models.RelicPools;
 using Fartooth;
 using Fartooth.Relics;
-using FartoothMod.Cards;
+using Fartooth.cards;
+
 
 
 
@@ -53,6 +54,13 @@ namespace FartoothMod
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(TrailMark));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(Concentrate));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(HoldBreath));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(ShootingSkill));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(RestInPlace));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(DistanceToBlock));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(EmergencyEvasion));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(KnightParty));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(SeekingSupplies));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(Focusing));
                 var harmony = new Harmony("FeatherLight.FartoothMod");
 				harmony.PatchAll();
                 Godot.Bridge.ScriptManagerBridge.LookupScriptsInAssembly(Assembly.GetExecutingAssembly());

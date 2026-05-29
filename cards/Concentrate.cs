@@ -15,7 +15,7 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 
-namespace FartoothMod.Cards
+namespace Fartooth.Cards
 {
     /// <summary>
     /// 技能：凝神

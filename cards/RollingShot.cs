@@ -1,15 +1,16 @@
-using Fartooth.Powers;
-using MegaCrit.Sts2.Core.Commands;
-using MegaCrit.Sts2.Core.Entities.Cards;
-using MegaCrit.Sts2.Core.GameActions.Multiplayer;
-using MegaCrit.Sts2.Core.Localization.DynamicVars;
-using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.ValueProps;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fartooth.Powers;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Fartooth.Cards
 {
@@ -18,6 +19,8 @@ namespace Fartooth.Cards
     /// </summary>
     public sealed class RollingShot : CardModel
     {
+        protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<Distance>()];
+        protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { CardTag.OstyAttack };
         protected override List<DynamicVar> CanonicalVars => [
            new DamageVar(4m, ValueProp.Move) ,// 伤害值
             new PowerVar<Distance>(1m)
@@ -36,7 +39,11 @@ namespace Fartooth.Cards
              .Targeting(cardPlay.Target) // 攻击目标
         .WithHitFx("vfx/vfx_attack_slash") // 攻击特效
         .Execute(choiceContext); // 执行攻击效果
-            await PowerCmd.Apply<Distance>(Owner.Creature, base.DynamicVars[nameof(Distance)].BaseValue, Owner.Creature, null);//增加距离
+            if (Owner.Creature.Powers.OfType<DistanceAvailablePower>().FirstOrDefault() == null)
+            {
+                await PowerCmd.Apply<Distance>(Owner.Creature, base.DynamicVars[nameof(Distance)].BaseValue, Owner.Creature, null);//增加距离
+            }
+            
         }
 
         protected override void OnUpgrade()

@@ -18,11 +18,12 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace Fartooth.Cards;
 public sealed class PreciseShot : CardModel
 {
-
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { CardTag.OstyAttack };
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<Distance>()];
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[3]
     {
-       new CalculationBaseVar(5m),          // 基础伤害 6
-        new ExtraDamageVar(2m),              // 每层Distance的倍率：1 👈 独立EXTRA
+       new CalculationBaseVar(7m),          // 基础伤害 6
+        new ExtraDamageVar(1m),              // 每层Distance的倍率：1 👈 独立EXTRA
         new CalculatedDamageVar(ValueProp.Move).WithMultiplier((CardModel card,Creature? target) =>
             {
                 int distance = card.Owner.Creature.GetPowerAmount<Distance>();

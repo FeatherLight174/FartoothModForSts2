@@ -50,7 +50,7 @@ namespace Fartooth.Cards
         }
         protected override void OnUpgrade()
         {
-            base.DynamicVars.Strength.UpgradeValueBy(1m); // 升级后加 一层力量
+            base.DynamicVars["StrengthLoss"].UpgradeValueBy(1m); // 升级后加 一层力量
         }
     }
 }

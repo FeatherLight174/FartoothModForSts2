@@ -1,15 +1,16 @@
-using Fartooth.Powers;
-using MegaCrit.Sts2.Core.Commands;
-using MegaCrit.Sts2.Core.Entities.Cards;
-using MegaCrit.Sts2.Core.GameActions.Multiplayer;
-using MegaCrit.Sts2.Core.Localization.DynamicVars;
-using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.ValueProps;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fartooth.Powers;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.ValueProps;
 
 
 namespace Fartooth.Cards
@@ -19,8 +20,9 @@ namespace Fartooth.Cards
     /// </summary>
     public sealed class SurpriseAttackFartooth : CardModel
     {
+        protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<Distance>()];
         protected override List<DynamicVar> CanonicalVars => [
-        new DamageVar(6m, ValueProp.Move) // 伤害值
+        new DamageVar(5m, ValueProp.Move) // 伤害值
 	];
 
         // 构造
@@ -36,9 +38,9 @@ namespace Fartooth.Cards
                 var power = Owner.Creature.Powers
            .FirstOrDefault(p => p is Distance);
 
-                if (power == null) return false;
+                if ((power == null)|| (Owner.Creature.Powers.OfType<DistanceConsumePower>().FirstOrDefault() != null)) return false;
 
-                return power.Amount >= 2;
+                return power.Amount >= 1;
             }
         }
 
@@ -52,12 +54,12 @@ namespace Fartooth.Cards
          .Targeting(cardPlay.Target) // 攻击目标
     .WithHitFx("vfx/vfx_attack_slash") // 攻击特效
     .Execute(choiceContext); // 执行攻击效果
-            await PowerCmd.Apply<Distance>(Owner.Creature, -2m, Owner.Creature, null);
+            await PowerCmd.Apply<Distance>(Owner.Creature, -1m, Owner.Creature, null);
         }
 
         protected override void OnUpgrade()
         {
-            base.DynamicVars.Damage.UpgradeValueBy(3m); // 升级后加 3点伤害
+            base.DynamicVars.Damage.UpgradeValueBy(2m); // 升级后加 3点伤害
         }
     }
 

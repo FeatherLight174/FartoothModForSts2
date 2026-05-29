@@ -28,20 +28,26 @@ public sealed class BeingPrepared : CardModel
     };
 
     public BeingPrepared()
-        : base(1, CardType.Skill, CardRarity.Basic, TargetType.Self)
+        : base(0, CardType.Skill, CardRarity.Basic, TargetType.Self)
     {
     }
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
+        
         await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
         await PowerCmd.Apply<EnergyNextTurnPower>(base.Owner.Creature, base.DynamicVars.Energy.BaseValue, base.Owner.Creature, this);
-        await PowerCmd.Apply<Distance>(Owner.Creature, base.DynamicVars[nameof(Distance)].BaseValue, Owner.Creature, null);
+        if (Owner.Creature.Powers.OfType<DistanceAvailablePower>().FirstOrDefault()==null) {
+            await PowerCmd.Apply<Distance>(Owner.Creature, base.DynamicVars[nameof(Distance)].BaseValue, Owner.Creature, null);
+        }
+        
+        
+        
     }
 
     protected override void OnUpgrade()
     {
-        //base.DynamicVars[nameof(Distance)].UpgradeValueBy(1m);
-        base.EnergyCost.UpgradeBy(-1);
+        base.DynamicVars[nameof(Distance)].UpgradeValueBy(1m);
+        //base.DynamicVars[nameof(di)].UpgradeBy(-1);
     }
 }

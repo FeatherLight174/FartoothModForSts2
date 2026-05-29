@@ -17,6 +17,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace Fartooth.Cards;
 public sealed class MegaShot : CardModel
 {
+	protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<Distance>()];
 	protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[3]
 	{
 	   new CalculationBaseVar(0m),          // 基础伤害 6

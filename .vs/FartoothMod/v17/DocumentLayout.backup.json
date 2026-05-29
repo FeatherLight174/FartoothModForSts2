@@ -3,46 +3,6 @@
   "WorkspaceRootPath": "E:\\Slay the Spire 2mod\\fartooth-mod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\holdbreath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\holdbreath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\holdbreathpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\holdbreathpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\concentrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\concentrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\concentratepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\concentratepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\quickdodge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\quickdodge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\combatexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\combatexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\temporarydistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\temporarydistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\combatexperiencepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\combatexperiencepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\trailmarkpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\trailmarkpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\perfectturnpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\perfectturnpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cardpools\\fartoothcardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cardpools\\fartoothcardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,44 +11,48 @@
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:fartoothmodinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\relics\\sniper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:relics\\sniper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\focusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\focusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\strikefartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\strikefartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\knightparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\knightparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\swiftshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\swiftshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\strategicretreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\strategicretreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\trailmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\trailmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\characters\\fartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:characters\\fartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\surpriseattackfartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\surpriseattackfartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\weaknessshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\weaknessshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\aimingatyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\aimingatyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\seekingsupplies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\seekingsupplies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\shootingskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\shootingskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\strategicretreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\strategicretreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\closerangeshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\closerangeshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\beingprepared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\beingprepared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\shootingskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\shootingskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\concentrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\concentrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\emergencyevasion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\emergencyevasion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\rollingshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,36 +63,108 @@
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\defendfartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\aimedshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\aimedshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\trailmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\trailmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\quickdodge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\quickdodge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\megashot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\megashot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\surpriseattackfartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\surpriseattackfartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\alliancesupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\alliancesupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\swiftshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\swiftshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\preciseshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\preciseshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\closerangeshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\closerangeshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\distancetoblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\distancetoblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\megashot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\megashot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\combatexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\combatexperience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\restinplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\restinplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\holdbreath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\holdbreath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\distancetoblockpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\distancetoblockpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\temporarydistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\temporarydistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\trailmarkpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\trailmarkpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\distanceconsumepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\distanceconsumepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\aimedshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\aimedshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\aimingatyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\aimingatyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\alliancesupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\alliancesupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\cards\\strikefartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:cards\\strikefartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\combatexperiencepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\combatexperiencepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\distanceavailablepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\distanceavailablepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\concentratepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\concentratepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\holdbreathpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\holdbreathpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\powers\\perfectturnpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:powers\\perfectturnpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\characters\\fartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:characters\\fartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|e:\\slay the spire 2mod\\fartooth-mod\\relics\\sniper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3019BB86-7B03-44B0-882B-E069F99FA6ED}|FartoothMod.csproj|solutionrelative:relics\\sniper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Slay the Spire 2mod\\anticode\\src\\Core\\Models\\Cards\\Bully.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -153,17 +189,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "FartoothModInitializer.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\FartoothModInitializer.cs",
               "RelativeDocumentMoniker": "FartoothModInitializer.cs",
               "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\FartoothModInitializer.cs",
               "RelativeToolTip": "FartoothModInitializer.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADYAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwD4AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T03:44:18.873Z",
               "IsPinned": true,
@@ -171,13 +207,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "FartoothCardPool.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\CardPools\\FartoothCardPool.cs",
               "RelativeDocumentMoniker": "CardPools\\FartoothCardPool.cs",
               "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\CardPools\\FartoothCardPool.cs",
               "RelativeToolTip": "CardPools\\FartoothCardPool.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACsAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wDAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T14:55:40.693Z",
               "IsPinned": true,
@@ -185,111 +221,384 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HoldBreathPower.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\HoldBreathPower.cs",
-              "RelativeDocumentMoniker": "Powers\\HoldBreathPower.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\HoldBreathPower.cs",
-              "RelativeToolTip": "Powers\\HoldBreathPower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Focusing.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\Focusing.cs",
+              "RelativeDocumentMoniker": "Cards\\Focusing.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\Focusing.cs",
+              "RelativeToolTip": "Cards\\Focusing.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T00:32:01.252Z",
+              "WhenOpened": "2026-05-29T11:44:34.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HoldBreath.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\HoldBreath.cs",
-              "RelativeDocumentMoniker": "Cards\\HoldBreath.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\HoldBreath.cs",
-              "RelativeToolTip": "Cards\\HoldBreath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAANAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SeekingSupplies.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\SeekingSupplies.cs",
+              "RelativeDocumentMoniker": "Cards\\SeekingSupplies.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\SeekingSupplies.cs",
+              "RelativeToolTip": "Cards\\SeekingSupplies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T00:06:30.092Z",
+              "WhenOpened": "2026-05-29T11:27:12.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConcentratePower.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\ConcentratePower.cs",
-              "RelativeDocumentMoniker": "Powers\\ConcentratePower.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\ConcentratePower.cs",
-              "RelativeToolTip": "Powers\\ConcentratePower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "KnightParty.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\KnightParty.cs",
+              "RelativeDocumentMoniker": "Cards\\KnightParty.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\KnightParty.cs",
+              "RelativeToolTip": "Cards\\KnightParty.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T23:01:35.825Z",
+              "WhenOpened": "2026-05-29T07:48:25.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
+              "Title": "RollingShot.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\RollingShot.cs",
+              "RelativeDocumentMoniker": "Cards\\RollingShot.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\RollingShot.cs",
+              "RelativeToolTip": "Cards\\RollingShot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T11:03:50.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmergencyEvasion.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\EmergencyEvasion.cs",
+              "RelativeDocumentMoniker": "Cards\\EmergencyEvasion.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\EmergencyEvasion.cs",
+              "RelativeToolTip": "Cards\\EmergencyEvasion.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T07:08:32.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Concentrate.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\Concentrate.cs",
               "RelativeDocumentMoniker": "Cards\\Concentrate.cs",
               "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\Concentrate.cs",
               "RelativeToolTip": "Cards\\Concentrate.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswBQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T20:58:36.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PerfectTurnPower.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\PerfectTurnPower.cs",
-              "RelativeDocumentMoniker": "Powers\\PerfectTurnPower.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\PerfectTurnPower.cs",
-              "RelativeToolTip": "Powers\\PerfectTurnPower.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswDQAAAARAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "BeingPrepared.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\BeingPrepared.cs",
+              "RelativeDocumentMoniker": "Cards\\BeingPrepared.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\BeingPrepared.cs",
+              "RelativeToolTip": "Cards\\BeingPrepared.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:51:07.78Z",
+              "WhenOpened": "2026-05-28T09:04:40.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Sniper.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Relics\\Sniper.cs",
-              "RelativeDocumentMoniker": "Relics\\Sniper.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Relics\\Sniper.cs",
-              "RelativeToolTip": "Relics\\Sniper.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwEAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "CloseRangeShot.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\CloseRangeShot.cs",
+              "RelativeDocumentMoniker": "Cards\\CloseRangeShot.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\CloseRangeShot.cs",
+              "RelativeToolTip": "Cards\\CloseRangeShot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T07:54:33.071Z",
+              "WhenOpened": "2026-05-27T09:47:50.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StrategicRetreat.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\StrategicRetreat.cs",
+              "RelativeDocumentMoniker": "Cards\\StrategicRetreat.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\StrategicRetreat.cs",
+              "RelativeToolTip": "Cards\\StrategicRetreat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T06:53:53.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShootingSkill.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\ShootingSkill.cs",
+              "RelativeDocumentMoniker": "Cards\\ShootingSkill.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\ShootingSkill.cs",
+              "RelativeToolTip": "Cards\\ShootingSkill.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T01:32:36.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeaknessShot.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\WeaknessShot.cs",
+              "RelativeDocumentMoniker": "Cards\\WeaknessShot.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\WeaknessShot.cs",
+              "RelativeToolTip": "Cards\\WeaknessShot.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T06:28:35.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SurpriseAttackFartooth.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\SurpriseAttackFartooth.cs",
+              "RelativeDocumentMoniker": "Cards\\SurpriseAttackFartooth.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\SurpriseAttackFartooth.cs",
+              "RelativeToolTip": "Cards\\SurpriseAttackFartooth.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T18:39:55.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "DefendFartooth.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\DefendFartooth.cs",
+              "RelativeDocumentMoniker": "Cards\\DefendFartooth.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\DefendFartooth.cs",
+              "RelativeToolTip": "Cards\\DefendFartooth.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T04:34:06.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuickDodge.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\QuickDodge.cs",
+              "RelativeDocumentMoniker": "Cards\\QuickDodge.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\QuickDodge.cs",
+              "RelativeToolTip": "Cards\\QuickDodge.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB0AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:55:31.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MegaShot.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\MegaShot.cs",
+              "RelativeDocumentMoniker": "Cards\\MegaShot.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\MegaShot.cs",
+              "RelativeToolTip": "Cards\\MegaShot.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T12:31:07.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "SwiftShot.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\SwiftShot.cs",
               "RelativeDocumentMoniker": "Cards\\SwiftShot.cs",
               "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\SwiftShot.cs",
               "RelativeToolTip": "Cards\\SwiftShot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T03:31:17.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
+              "Title": "PreciseShot.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\PreciseShot.cs",
+              "RelativeDocumentMoniker": "Cards\\PreciseShot.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\PreciseShot.cs",
+              "RelativeToolTip": "Cards\\PreciseShot.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T04:32:43.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DistanceToBlock.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\DistanceToBlock.cs",
+              "RelativeDocumentMoniker": "Cards\\DistanceToBlock.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\DistanceToBlock.cs",
+              "RelativeToolTip": "Cards\\DistanceToBlock.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T05:43:33.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CombatExperience.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\CombatExperience.cs",
+              "RelativeDocumentMoniker": "Cards\\CombatExperience.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\CombatExperience.cs",
+              "RelativeToolTip": "Cards\\CombatExperience.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T19:47:05.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RestInPlace.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\RestInPlace.cs",
+              "RelativeDocumentMoniker": "Cards\\RestInPlace.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\RestInPlace.cs",
+              "RelativeToolTip": "Cards\\RestInPlace.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T04:09:51.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TrailMark.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\TrailMark.cs",
+              "RelativeDocumentMoniker": "Cards\\TrailMark.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\TrailMark.cs",
+              "RelativeToolTip": "Cards\\TrailMark.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T20:15:07.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HoldBreath.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\HoldBreath.cs",
+              "RelativeDocumentMoniker": "Cards\\HoldBreath.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\HoldBreath.cs",
+              "RelativeToolTip": "Cards\\HoldBreath.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T00:06:30.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DistanceToBlockPower.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\DistanceToBlockPower.cs",
+              "RelativeDocumentMoniker": "Powers\\DistanceToBlockPower.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\DistanceToBlockPower.cs",
+              "RelativeToolTip": "Powers\\DistanceToBlockPower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T05:05:59.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "TrailMarkPower.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\TrailMarkPower.cs",
               "RelativeDocumentMoniker": "Powers\\TrailMarkPower.cs",
               "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\TrailMarkPower.cs",
               "RelativeToolTip": "Powers\\TrailMarkPower.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwCUAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCIAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T20:09:55.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 27,
+              "Title": "DistanceConsumePower.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\DistanceConsumePower.cs",
+              "RelativeDocumentMoniker": "Powers\\DistanceConsumePower.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\DistanceConsumePower.cs",
+              "RelativeToolTip": "Powers\\DistanceConsumePower.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T04:10:40.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Distance.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\Distance.cs",
+              "RelativeDocumentMoniker": "Powers\\Distance.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\Distance.cs",
+              "RelativeToolTip": "Powers\\Distance.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T07:19:10.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AimedShot.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AimedShot.cs",
+              "RelativeDocumentMoniker": "Cards\\AimedShot.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AimedShot.cs",
+              "RelativeToolTip": "Cards\\AimedShot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T08:04:27.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AimingAtYou.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AimingAtYou.cs",
+              "RelativeDocumentMoniker": "Cards\\AimingAtYou.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AimingAtYou.cs",
+              "RelativeToolTip": "Cards\\AimingAtYou.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T08:49:58.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AllianceSupport.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AllianceSupport.cs",
+              "RelativeDocumentMoniker": "Cards\\AllianceSupport.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AllianceSupport.cs",
+              "RelativeToolTip": "Cards\\AllianceSupport.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABUAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T07:52:19.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "TemporaryDistance.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\TemporaryDistance.cs",
               "RelativeDocumentMoniker": "Powers\\TemporaryDistance.cs",
@@ -302,124 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CombatExperience.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\CombatExperience.cs",
-              "RelativeDocumentMoniker": "Cards\\CombatExperience.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\CombatExperience.cs",
-              "RelativeToolTip": "Cards\\CombatExperience.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAswBwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T19:47:05.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuickDodge.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\QuickDodge.cs",
-              "RelativeDocumentMoniker": "Cards\\QuickDodge.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\QuickDodge.cs",
-              "RelativeToolTip": "Cards\\QuickDodge.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwC8AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:55:31.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StrategicRetreat.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\StrategicRetreat.cs",
-              "RelativeDocumentMoniker": "Cards\\StrategicRetreat.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\StrategicRetreat.cs",
-              "RelativeToolTip": "Cards\\StrategicRetreat.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T06:53:53.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TrailMark.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\TrailMark.cs",
-              "RelativeDocumentMoniker": "Cards\\TrailMark.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\TrailMark.cs",
-              "RelativeToolTip": "Cards\\TrailMark.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T20:15:07.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Fartooth.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Characters\\Fartooth.cs",
-              "RelativeDocumentMoniker": "Characters\\Fartooth.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Characters\\Fartooth.cs",
-              "RelativeToolTip": "Characters\\Fartooth.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAmwF8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T21:56:37.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CombatExperiencePower.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\CombatExperiencePower.cs",
-              "RelativeDocumentMoniker": "Powers\\CombatExperiencePower.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\CombatExperiencePower.cs",
-              "RelativeToolTip": "Powers\\CombatExperiencePower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T19:29:27.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "WeaknessShot.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\WeaknessShot.cs",
-              "RelativeDocumentMoniker": "Cards\\WeaknessShot.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\WeaknessShot.cs",
-              "RelativeToolTip": "Cards\\WeaknessShot.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T06:28:35.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AimingAtYou.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AimingAtYou.cs",
-              "RelativeDocumentMoniker": "Cards\\AimingAtYou.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AimingAtYou.cs",
-              "RelativeToolTip": "Cards\\AimingAtYou.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAIwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:49:58.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BeingPrepared.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\BeingPrepared.cs",
-              "RelativeDocumentMoniker": "Cards\\BeingPrepared.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\BeingPrepared.cs",
-              "RelativeToolTip": "Cards\\BeingPrepared.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T09:04:40.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 32,
               "Title": "StrikeFartooth.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\StrikeFartooth.cs",
               "RelativeDocumentMoniker": "Cards\\StrikeFartooth.cs",
@@ -432,59 +624,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ShootingSkill.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\ShootingSkill.cs",
-              "RelativeDocumentMoniker": "Cards\\ShootingSkill.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\ShootingSkill.cs",
-              "RelativeToolTip": "Cards\\ShootingSkill.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "CombatExperiencePower.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\CombatExperiencePower.cs",
+              "RelativeDocumentMoniker": "Powers\\CombatExperiencePower.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\CombatExperiencePower.cs",
+              "RelativeToolTip": "Powers\\CombatExperiencePower.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T10:00:12.906Z",
+              "WhenOpened": "2026-05-28T19:29:27.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RollingShot.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\RollingShot.cs",
-              "RelativeDocumentMoniker": "Cards\\RollingShot.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\RollingShot.cs",
-              "RelativeToolTip": "Cards\\RollingShot.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvyAAAABHAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "DistanceAvailablePower.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\DistanceAvailablePower.cs",
+              "RelativeDocumentMoniker": "Powers\\DistanceAvailablePower.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\DistanceAvailablePower.cs",
+              "RelativeToolTip": "Powers\\DistanceAvailablePower.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvx0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T11:03:50.288Z",
+              "WhenOpened": "2026-05-29T04:10:14.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DefendFartooth.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\DefendFartooth.cs",
-              "RelativeDocumentMoniker": "Cards\\DefendFartooth.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\DefendFartooth.cs",
-              "RelativeToolTip": "Cards\\DefendFartooth.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAABhAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "ConcentratePower.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\ConcentratePower.cs",
+              "RelativeDocumentMoniker": "Powers\\ConcentratePower.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\ConcentratePower.cs",
+              "RelativeToolTip": "Powers\\ConcentratePower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T04:34:06.931Z",
+              "WhenOpened": "2026-05-28T23:01:35.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AimedShot.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AimedShot.cs",
-              "RelativeDocumentMoniker": "Cards\\AimedShot.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AimedShot.cs",
-              "RelativeToolTip": "Cards\\AimedShot.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "HoldBreathPower.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\HoldBreathPower.cs",
+              "RelativeDocumentMoniker": "Powers\\HoldBreathPower.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\HoldBreathPower.cs",
+              "RelativeToolTip": "Powers\\HoldBreathPower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:04:27.592Z",
+              "WhenOpened": "2026-05-29T00:32:01.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 37,
               "Title": "Mark.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\Mark.cs",
               "RelativeDocumentMoniker": "Powers\\Mark.cs",
@@ -497,84 +689,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Distance.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\Distance.cs",
-              "RelativeDocumentMoniker": "Powers\\Distance.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\Distance.cs",
-              "RelativeToolTip": "Powers\\Distance.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 38,
+              "Title": "PerfectTurnPower.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\PerfectTurnPower.cs",
+              "RelativeDocumentMoniker": "Powers\\PerfectTurnPower.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Powers\\PerfectTurnPower.cs",
+              "RelativeToolTip": "Powers\\PerfectTurnPower.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswDQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T07:19:10.139Z",
+              "WhenOpened": "2026-05-28T20:51:07.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "SurpriseAttackFartooth.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\SurpriseAttackFartooth.cs",
-              "RelativeDocumentMoniker": "Cards\\SurpriseAttackFartooth.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\SurpriseAttackFartooth.cs",
-              "RelativeToolTip": "Cards\\SurpriseAttackFartooth.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAxwEAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "Sniper.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Relics\\Sniper.cs",
+              "RelativeDocumentMoniker": "Relics\\Sniper.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Relics\\Sniper.cs",
+              "RelativeToolTip": "Relics\\Sniper.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvx0AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T18:39:55.51Z",
+              "WhenOpened": "2026-05-28T07:54:33.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AllianceSupport.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AllianceSupport.cs",
-              "RelativeDocumentMoniker": "Cards\\AllianceSupport.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\AllianceSupport.cs",
-              "RelativeToolTip": "Cards\\AllianceSupport.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAABaAAAAAAAAAA==",
+              "DocumentIndex": 39,
+              "Title": "Fartooth.cs",
+              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Characters\\Fartooth.cs",
+              "RelativeDocumentMoniker": "Characters\\Fartooth.cs",
+              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Characters\\Fartooth.cs",
+              "RelativeToolTip": "Characters\\Fartooth.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T07:52:19.731Z",
+              "WhenOpened": "2026-05-28T21:56:37.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "PreciseShot.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\PreciseShot.cs",
-              "RelativeDocumentMoniker": "Cards\\PreciseShot.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\PreciseShot.cs",
-              "RelativeToolTip": "Cards\\PreciseShot.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwB0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T04:32:43.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CloseRangeShot.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\CloseRangeShot.cs",
-              "RelativeDocumentMoniker": "Cards\\CloseRangeShot.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\CloseRangeShot.cs",
-              "RelativeToolTip": "Cards\\CloseRangeShot.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T09:47:50.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "MegaShot.cs",
-              "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\MegaShot.cs",
-              "RelativeDocumentMoniker": "Cards\\MegaShot.cs",
-              "ToolTip": "E:\\Slay the Spire 2mod\\fartooth-mod\\Cards\\MegaShot.cs",
-              "RelativeToolTip": "Cards\\MegaShot.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T12:31:07.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "cards.json",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\FartoothMod\\localization\\zhs\\cards.json",
               "RelativeDocumentMoniker": "FartoothMod\\localization\\zhs\\cards.json",
@@ -586,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 44,
               "Title": "Patch.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\Scripts\\Patch.cs",
               "RelativeDocumentMoniker": "Scripts\\Patch.cs",
@@ -598,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 42,
               "Title": "FartoothRelicPool.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\fartooth-mod\\RelicPools\\FartoothRelicPool.cs",
               "RelativeDocumentMoniker": "RelicPools\\FartoothRelicPool.cs",
@@ -610,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 41,
               "Title": "Bully.cs",
               "DocumentMoniker": "E:\\Slay the Spire 2mod\\anticode\\src\\Core\\Models\\Cards\\Bully.cs",
               "RelativeDocumentMoniker": "..\\anticode\\src\\Core\\Models\\Cards\\Bully.cs",

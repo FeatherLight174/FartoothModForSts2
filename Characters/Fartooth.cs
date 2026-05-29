@@ -52,8 +52,8 @@ public sealed class Fartooth : CharacterModel
 		ModelDb.Card<Cards.DefendFartooth>(),
 		ModelDb.Card<Cards.DefendFartooth>(),
         ModelDb.Card<Cards.BeingPrepared>(),
-        ModelDb.Card<Cards.PreciseShot>()
-	};
+        ModelDb.Card<Cards.PreciseShot>(),
+    };
 
 	public override IReadOnlyList<RelicModel> StartingRelics => new RelicModel[]
 	{
