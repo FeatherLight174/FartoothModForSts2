@@ -15,7 +15,8 @@ using MegaCrit.Sts2.Core.ValueProps;
 namespace Fartooth.Cards;
 public sealed class StrikeFartooth : CardModel
 {
-	protected override List<DynamicVar> CanonicalVars => [
+    protected override HashSet<CardTag> CanonicalTags => new HashSet<CardTag> { CardTag.Strike };
+    protected override List<DynamicVar> CanonicalVars => [
 		new DamageVar(6m, ValueProp.Move) // 伤害值
 	];
 	// 动态变量

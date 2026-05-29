@@ -1,5 +1,26 @@
 {
   "DISTANCE.title": "距离",
-  "DISTANCE.description": "距离会对远牙造成多方面的影响",
-  "DISTANCE.smartDescription": "当前距离为 {Amount} "
+  "DISTANCE.description": "[gold]距离[/gold]会对远牙造成多方面的影响",
+  "DISTANCE.smartDescription": "当前[gold]距离[/gold]为{Amount} ",
+  "MARK.title": "标记",
+  "MARK.description": "每有一层[gold]标记[/gold]，目标受到伤害时就会额外受到2点伤害",
+  "MARK.smartDescription": "当前[gold]标记[/gold]为{Amount}, 每有一层[gold]标记[/gold]，目标受到伤害时就会额外受到2点伤害",
+  "TEMPORARY_DISTANCE.title": "临时距离",
+  "TEMPORARY_DISTANCE.description": "临时距离会在回合结束时消失",
+  "TEMPORARY_DISTANCE.smartDescription": "当前临时距离为{Amount}，临时距离会在回合结束时消失",
+  "COMBAT_EXPERIENCE_POWER.title": "逐猎",
+  "COMBAT_EXPERIENCE_POWER.description": "每回合开始时获得1点[gold]距离[/gold]",
+  "COMBAT_EXPERIENCE_POWER.smartDescription": "每回合开始时获得1点[gold]距离[/gold]",
+  "TRAIL_MARK_POWER.title": "追痕",
+  "TRAIL_MARK_POWER.description": "每次施加[gold]标记[/gold]时，抽2张牌",
+  "TRAIL_MARK_POWER.smartDescription": "每次施加[gold]标记[/gold]时，抽2张牌",
+  "PERFECT_TURN_POWER.title": "无痕",
+  "PERFECT_TURN_POWER.description": "上回合没有损失生命值",
+  "PERFECT_TURN_POWER.smartDescription": "上回合没有损失生命值",
+  "CONCENTRATE_TURN_POWER.title": "凝神",
+  "CONCENTRATE_POWER.description": "本回合内获得力量",
+  "CONCENTRATE_POWER.smartDescription": "本回合内获得力量",
+  "HOLD_BREATH_POWER.title": "屏息",
+  "HOLD_BREATH_POWER.description": "本回合内失去力量",
+  "HOLD_BREATH_POWER.smartDescription": "本回合内失去力量"
 }

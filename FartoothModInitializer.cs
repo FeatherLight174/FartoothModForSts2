@@ -20,7 +20,8 @@ using MegaCrit.Sts2.Core.Models.Characters;
 using MegaCrit.Sts2.Core.Models.RelicPools;
 using Fartooth;
 using Fartooth.Relics;
-using FartoothMod.cards;
+using FartoothMod.Cards;
+
 
 
 namespace FartoothMod
@@ -38,6 +39,20 @@ namespace FartoothMod
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(DefendFartooth));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(MegaShot));
                 ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(SurpriseAttackFartooth));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(CloseRangeShot));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(BeingPrepared));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(SwiftShot));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(QuickDodge));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(WeaknessShot));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(StrategicRetreat));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(AllianceSupport));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(AimedShot));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(AimingAtYou));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(RollingShot));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(CombatExperience));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(TrailMark));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(Concentrate));
+                ModHelper.AddModelToPool(typeof(FartoothCardPool), typeof(HoldBreath));
                 var harmony = new Harmony("FeatherLight.FartoothMod");
 				harmony.PatchAll();
                 Godot.Bridge.ScriptManagerBridge.LookupScriptsInAssembly(Assembly.GetExecutingAssembly());
@@ -57,24 +72,7 @@ namespace FartoothMod
 
 	
 
-	[HarmonyPatch(typeof(Ironclad), nameof(Ironclad.StartingRelics), MethodType.Getter)]
-	public static class IroncladStartingRelicsPatch
-	{
-		static void Postfix(ref IReadOnlyList<RelicModel> __result)
-		{
-			var customRelic = ModelDb.Relic<Sniper>();
-			// 从注册的数据库中获取我们自定义的遗物实例对象
 
-			if (__result.Any(r => r.Id == customRelic.Id))
-				return;
-			// 遍历原本的初始遗物列表，如果已经存在这个遗物，就直接返回
-
-			var list = __result.ToList();
-			list.Add(customRelic);
-			__result = list;
-			// 向 __result 追加 customRelic自定义遗物对象
-		}
-	}
     
 
 

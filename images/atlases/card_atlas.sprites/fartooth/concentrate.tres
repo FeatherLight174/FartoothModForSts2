@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://t5pvtk31iq4c"]
+
+[ext_resource type="Texture2D" uid="uid://dx8d6vnwsga7w" path="res://images/packed/card_portraits/fartooth/concentrate.png" id="1_17473"]
+
+[resource]
+atlas = ExtResource("1_17473")

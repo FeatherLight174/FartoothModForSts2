@@ -1,6 +1,7 @@
 [gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dypkh8mym65wj"]
 
-[ext_resource type="Texture2D" uid="uid://ccetpueukm0sv" path="res://images/packed/sprite_fonts/fartooth_energy_icon.png" id="1_glflv"]
+[ext_resource type="Texture2D" uid="uid://bj1jxg00s2mo0" path="res://images/ui/energys/fartooth_energy_icon.png" id="1_glflv"]
 
 [resource]
 atlas = ExtResource("1_glflv")
+region = Rect2(0, 0, 100, 100)

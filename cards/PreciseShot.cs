@@ -21,9 +21,14 @@ public sealed class PreciseShot : CardModel
 
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[3]
     {
-       new CalculationBaseVar(6m),          // 基础伤害 6
-        new ExtraDamageVar(1m),              // 每层Distance的倍率：1 👈 独立EXTRA
-        new CalculatedDamageVar(ValueProp.Move).WithMultiplier((CardModel _, Creature? target) => _.Owner?.Creature.GetPowerAmount<Distance>() ?? 0 )
+       new CalculationBaseVar(5m),          // 基础伤害 6
+        new ExtraDamageVar(2m),              // 每层Distance的倍率：1 👈 独立EXTRA
+        new CalculatedDamageVar(ValueProp.Move).WithMultiplier((CardModel card,Creature? target) =>
+            {
+                int distance = card.Owner.Creature.GetPowerAmount<Distance>();
+                int tempDistance = card.Owner.Creature.GetPowerAmount<TemporaryDistance>();
+                return distance + tempDistance;
+            })
             
     };
     //动态变量
@@ -35,7 +40,6 @@ public sealed class PreciseShot : CardModel
 
 	protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
 	{
-        int distanceAmount = Owner.Creature.GetPowerAmount<Distance>();
         //await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
         await DamageCmd.Attack(base.DynamicVars.CalculatedDamage)
          .FromCard(this) // 攻击来源
@@ -48,4 +52,5 @@ public sealed class PreciseShot : CardModel
 	{
 		base.DynamicVars.ExtraDamage.UpgradeValueBy(1m); // 升级后加 1 点伤害
 	}
+
 }

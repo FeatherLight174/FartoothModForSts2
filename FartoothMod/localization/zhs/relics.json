@@ -1,6 +1,6 @@
 {
 	"SNIPER.title": "狙击镜",
-	"SNIPER.description": "每场战斗开始时，距离+1。",
+	"SNIPER.description": "每场战斗开始时，对所有敌人施加1层[gold]标记[/gold]",
 	"SNIPER.flavor": "远牙·查斯汀娜，听从你的调遣。"
 
 }

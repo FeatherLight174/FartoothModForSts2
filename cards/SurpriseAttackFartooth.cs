@@ -11,9 +11,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//攻击卡 ： 突袭
-namespace FartoothMod.cards
+
+namespace Fartooth.Cards
 {
+    /// <summary>
+    /// 攻击卡 ： 突袭
+    /// </summary>
     public sealed class SurpriseAttackFartooth : CardModel
     {
         protected override List<DynamicVar> CanonicalVars => [
@@ -22,7 +25,7 @@ namespace FartoothMod.cards
 
         // 构造
         public SurpriseAttackFartooth()
-        : base(1, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy) { }
+        : base(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy) { }
 
         //消耗距离的判断
         protected override bool IsPlayable

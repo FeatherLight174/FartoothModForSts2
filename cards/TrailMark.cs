@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Fartooth.Powers;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Powers;
+using MegaCrit.Sts2.Core.ValueProps;
+
+
+namespace Fartooth.Cards
+{
+    /// <summary>
+    /// 战斗经验
+    /// </summary>
+    public sealed class TrailMark : CardModel
+    {
+
+
+        // 构造
+        
+
+        protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<Mark>()];
+        protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(2)];
+
+        public TrailMark()
+        : base(2, CardType.Power, CardRarity.Rare, TargetType.Self) { }
+        protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
+        {
+
+            await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
+            await PowerCmd.Apply<TrailMarkPower>(base.Owner.Creature, base.DynamicVars.Cards.BaseValue, base.Owner.Creature, this);
+        }
+
+        protected override void OnUpgrade()
+        {
+            base.EnergyCost.UpgradeBy(-1); // 升级后加 3点伤害
+        }
+    }
+
+}

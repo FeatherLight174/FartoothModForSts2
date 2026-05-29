@@ -1,12 +1,19 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Fartooth.CardPools;
+using Fartooth.Cards;
 using Fartooth.PotionPools;
 using Fartooth.RelicPools;
 using Fartooth.Relics;
 using Godot;
 using HarmonyLib;
+using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Entities.Characters;
+using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Entities.Players;
+using MegaCrit.Sts2.Core.Entities.Powers;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Characters;
@@ -44,7 +51,8 @@ public sealed class Fartooth : CharacterModel
 		ModelDb.Card<Cards.DefendFartooth>(),
 		ModelDb.Card<Cards.DefendFartooth>(),
 		ModelDb.Card<Cards.DefendFartooth>(),
-		ModelDb.Card<Cards.PreciseShot>()
+        ModelDb.Card<Cards.BeingPrepared>(),
+        ModelDb.Card<Cards.PreciseShot>()
 	};
 
 	public override IReadOnlyList<RelicModel> StartingRelics => new RelicModel[]
@@ -86,4 +94,5 @@ public sealed class Fartooth : CharacterModel
 				.Distinct();
 		}
 	}
+    
 }

@@ -1,15 +1,15 @@
 {
-    "FARTOOTH.title": "远牙",
-    "FARTOOTH.description": "一名目盲的修行者，前来“评估”高塔。掌握运用神圣“姿态”来战斗的方法。",
-    "FARTOOTH.titleObject": "观者",
-    "FARTOOTH.pronounObject": "她",
-    "FARTOOTH.possessiveAdjective": "她的",
-    "FARTOOTH.pronounPossessive": "她的",
-    "FARTOOTH.pronounSubject": "她",
-    "FARTOOTH.cardsModifierTitle": "观者卡牌",
-    "FARTOOTH.cardsModifierDescription": "观者的卡牌现在会出现在奖励和商店中。",
-    "FARTOOTH.eventDeathPrevention": "高塔沉睡了… 那么… 我也…",
-    "FARTOOTH.unlockText": "完成 {Prerequisite} 的条件后解锁。",
-    "FARTOOTH.banter.alive.endTurnPing": "[sine]快点出牌……[/sine]",
-    "FARTOOTH.banter.dead.endTurnPing": "……"
+	"FARTOOTH.title": "远牙",
+	"FARTOOTH.description": "红松林骑士团成员，她会一直伴你同行",
+	"FARTOOTH.titleObject": "远牙",
+	"FARTOOTH.pronounObject": "她",
+	"FARTOOTH.possessiveAdjective": "她的",
+	"FARTOOTH.pronounPossessive": "她的",
+	"FARTOOTH.pronounSubject": "她",
+	"FARTOOTH.cardsModifierTitle": "远牙卡牌",
+	"FARTOOTH.cardsModifierDescription": "远牙的卡牌现在会出现在奖励和商店中。",
+	"FARTOOTH.eventDeathPrevention": "罗德岛的小骑士…",
+	"FARTOOTH.unlockText": "完成 {Prerequisite} 的条件后解锁。",
+	"FARTOOTH.banter.alive.endTurnPing": "[sine]快点出牌……[/sine]",
+	"FARTOOTH.banter.dead.endTurnPing": "……"
 }

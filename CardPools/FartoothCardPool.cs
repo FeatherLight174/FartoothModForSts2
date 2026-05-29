@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Fartooth.Cards;
-using FartoothMod.cards;
+using FartoothMod.Cards;
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Helpers;
@@ -26,7 +26,21 @@ public sealed class FartoothCardPool : CardPoolModel
 			ModelDb.Card<DefendFartooth>(),
 			ModelDb.Card<PreciseShot>(),
 			ModelDb.Card<MegaShot>(),
-			ModelDb.Card<SurpriseAttackFartooth>()
+			ModelDb.Card<SurpriseAttackFartooth>(),
+			ModelDb.Card<CloseRangeShot>(),
+			ModelDb.Card<BeingPrepared>(),
+			ModelDb.Card<SwiftShot>(),
+			ModelDb.Card<QuickDodge>(),
+			ModelDb.Card<WeaknessShot>(),
+			ModelDb.Card<StrategicRetreat>(),
+			ModelDb.Card<AllianceSupport>(),
+			ModelDb.Card<AimedShot>(),
+			ModelDb.Card<AimingAtYou>(),
+			ModelDb.Card<RollingShot>(),
+			ModelDb.Card<CombatExperience>(),
+			ModelDb.Card<TrailMark>(),
+			ModelDb.Card<Concentrate>(),
+			ModelDb.Card<HoldBreath>()
 		};
 	}
 
